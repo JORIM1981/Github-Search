@@ -1,27 +1,81 @@
-# GithubSearch
+# Github-Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+Github-Search is an Angular App that uses Github API to retrieve user data. Submit a username and it gives you repository details of the user, including number of repositories, commits and branches and also when it was last updated. 
 
-## Development server
+[![git.png](https://i.postimg.cc/SQCqQsZY/git.png)](https://postimg.cc/Lh9GNHFm)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Both the CLI and the project have dependecies that require Node together with NPM. So make sure you have these installed and working before proceeding.
 
-## Build
+##### Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+- HTML & CSS (Bootstrap)
 
-## Running unit tests
+##### Setup Instructions and Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Clone this repository to a location in your file system.
+- Open terminal command line then navigate to the root folder of the application.
+- Run `ng serve` command.
+- Navigate to `http://localhost:4200/` in your browser.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Behaviour Driven Development
+
+##### Github-Search
+
+1. Displays GitHub info of a user when user name is entered
+   - INPUT: "user name entered"
+   - OUTPUT: "Displays User Details"
+2. Displays all repositories of a user when show repositories button is pressed
+   - INPUT: "Show repositories button pressed
+   - OUTPUT: "Displays User Repo Details"
+3. Displays an error message if you leave the name input field blank
+   - INPUT: " " 
+   - OUTPUT: "Name's required" 
+4. Displays an error message if you leave the repo name input field blank
+   - INPUT: " " 
+   - OUTPUT: "Repo Name is required"
+5. Displays an error message if the user name entered couldn't be found
+   - INPUT: "username"
+   - OUTPUT: "User Doesn't Exist"
+6. Displays an error message if the repo name entered couldn't be found
+   - INPUT: "repository" 
+   - OUTPUT: "Repository Doesn't Exist"
+## Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch (git checkout -b improve-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve feature')
+- Push to the branch (git push origin improve-feature)
+- Create a Pull Request
+
+## Known Bugs
+
+If you find a bug (the website couldn't handle the query and or gave undesired results), kindly open an issue here by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+##### Link to Live Site : [https://yomzsamora.github.io/GitSearch-Quotes/](https://yomzsamora.github.io/GitSearch-Quotes/)
+
+### License
+
+*MIT*
+Copyright (c) 2020 **Jorim Midumbi Okongo Opondo**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
