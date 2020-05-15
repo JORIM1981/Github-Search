@@ -13,6 +13,7 @@ import { RepositoriesComponent } from './repositories/repositories.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     DateCountPipe,
     SearchFormComponent,
     RepositoriesComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
