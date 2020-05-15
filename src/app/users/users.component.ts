@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserserviceService } from '../userservice.service';
 import { User } from '../user';
 import { Repos } from '../repos';
 @Component({
