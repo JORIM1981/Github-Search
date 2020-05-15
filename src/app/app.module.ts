@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { UsersComponent } from './users/users.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { UserserviceService } from './userservice.service';
+import { RepositoriesComponent } from './repositories/repositories.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { UserserviceService } from './userservice.service';
     UsersComponent,
     HighlightDirective,
     DateCountPipe,
-    SearchFormComponent
+    SearchFormComponent,
+    RepositoriesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [UserserviceService],
   bootstrap: [AppComponent]
