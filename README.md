@@ -1,9 +1,11 @@
 # Github-Search
+#### 15/05/2020
+#### By **Jorim Midumbi Okong'o Opondo**
+## Description
 
 Github-Search is an Angular App that uses Github API to retrieve user data. Submit a username and it gives you repository details of the user, including number of repositories, commits and branches and also when it was last updated. 
 
-[![git.png](https://i.postimg.cc/SQCqQsZY/git.png)](https://postimg.cc/Lh9GNHFm)
-
+![Github-Search]()
 
 ## Requirements
 
@@ -16,7 +18,7 @@ Both the CLI and the project have dependecies that require Node together with NP
 
 ##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system.
+- Clone this repository to a location in your file system.`git clone https://github.com/JORIM1981/Github-Search.git`
 - Open terminal command line then navigate to the root folder of the application.
 - Run `ng serve` command.
 - Navigate to `http://localhost:4200/` in your browser.
@@ -67,7 +69,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##### Link to Live Site : [https://yomzsamora.github.io/GitSearch-Quotes/](https://yomzsamora.github.io/GitSearch-Quotes/)
+##### Link to Live Site : [https://jorim1981.github.io/Github-Search/](https://jorim1981.github.io/Github-Search/)
 
 ### License
 
