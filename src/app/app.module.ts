@@ -10,6 +10,7 @@ import { DateCountPipe } from './date-count.pipe';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { UserserviceService } from './userservice.service';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     HighlightDirective,
     DateCountPipe,
     SearchFormComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
