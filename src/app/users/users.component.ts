@@ -34,7 +34,7 @@ repo: Repos;
       );
   }
 
-  ngOnInit():  {
+  ngOnInit()  {
     this.searchs('JORIM1981');
   }
 
