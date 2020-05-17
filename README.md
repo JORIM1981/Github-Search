@@ -71,6 +71,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ##### Link to Live Site : [https://jorim1981.github.io/Github-Search/](https://jorim1981.github.io/Github-Search/)
 
+## Inspiration
+
+Project inspired by Brad Traversy's tutorial (Modern Javascript From The Beginning)
+
+
 ### License
 
 *MIT*
