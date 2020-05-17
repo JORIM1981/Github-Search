@@ -1,4 +1,4 @@
-# Github-Search
+# Github-Search  [![codebeat badge](https://codebeat.co/badges/9f084980-dbca-4b84-96ae-a24d36f5cf3e)](https://codebeat.co/projects/github-com-jorim1981-github-search-gh-pages)
 #### 15/05/2020
 #### By **Jorim Midumbi Okong'o Opondo**
 ## Description
