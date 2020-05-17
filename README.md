@@ -5,7 +5,7 @@
 
 Github-Search is an Angular App that uses Github API to retrieve user data. Submit a username and it gives you repository details of the user, including number of repositories, commits and branches and also when it was last updated. 
 
-![Github-Search]()
+![Github-Search](https://github.com/JORIM1981/Github-Search/blob/master/src/assets/img/Screenshot.png)
 
 ## Requirements
 
